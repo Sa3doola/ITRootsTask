@@ -1,0 +1,11 @@
+/* 
+  PhotoLibraryServices.strings
+  App
+
+ //  Created by Saad Sherif on 19/01/2025.
+  
+*/
+
+"PHOTOS" = "الصور";
+"CAMERA_ROLL" = "الكاميرا";
+"ALL_SCREENSHOTS" = "لقطات الشاشة";

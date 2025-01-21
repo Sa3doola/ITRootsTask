@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9DB48C1F2D3C7A29008764D3 /* IQKeyboardToolbarManager in Frameworks */ = {isa = PBXBuildFile; productRef = 9DB48C1E2D3C7A29008764D3 /* IQKeyboardToolbarManager */; };
+		9DB48C222D3C7A3D008764D3 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9DB48C212D3C7A3D008764D3 /* IQKeyboardManagerSwift */; };
+		9DB48C252D3C7A8C008764D3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9DB48C242D3C7A8C008764D3 /* Alamofire */; };
+		9DB48C2A2D3C7AA8008764D3 /* CombineSchedulers in Frameworks */ = {isa = PBXBuildFile; productRef = 9DB48C292D3C7AA8008764D3 /* CombineSchedulers */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		9DB48C052D3C78E7008764D3 /* ITRootsTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITRootsTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -14,7 +21,7 @@
 		9DB48C172D3C78E9008764D3 /* Exceptions for "ITRootsTask" folder in "ITRootsTask" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Core/Info.plist,
 			);
 			target = 9DB48C042D3C78E7008764D3 /* ITRootsTask */;
 		};
@@ -36,6 +43,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DB48C252D3C7A8C008764D3 /* Alamofire in Frameworks */,
+				9DB48C2A2D3C7AA8008764D3 /* CombineSchedulers in Frameworks */,
+				9DB48C1F2D3C7A29008764D3 /* IQKeyboardToolbarManager in Frameworks */,
+				9DB48C222D3C7A3D008764D3 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,10 @@
 			);
 			name = ITRootsTask;
 			packageProductDependencies = (
+				9DB48C1E2D3C7A29008764D3 /* IQKeyboardToolbarManager */,
+				9DB48C212D3C7A3D008764D3 /* IQKeyboardManagerSwift */,
+				9DB48C242D3C7A8C008764D3 /* Alamofire */,
+				9DB48C292D3C7AA8008764D3 /* CombineSchedulers */,
 			);
 			productName = ITRootsTask;
 			productReference = 9DB48C052D3C78E7008764D3 /* ITRootsTask.app */;
@@ -104,9 +119,16 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 9DB48BFC2D3C78E7008764D3;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9DB48C1D2D3C7A29008764D3 /* XCRemoteSwiftPackageReference "IQKeyboardToolbarManager" */,
+				9DB48C202D3C7A3D008764D3 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				9DB48C232D3C7A8C008764D3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				9DB48C282D3C7AA8008764D3 /* XCRemoteSwiftPackageReference "combine-schedulers" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9DB48C062D3C78E7008764D3 /* Products */;
 			projectDirPath = "";
@@ -145,11 +167,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ITRootsTask/Info.plist;
+				INFOPLIST_FILE = ITRootsTask/Core/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -176,11 +198,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ITRootsTask/Info.plist;
+				INFOPLIST_FILE = ITRootsTask/Core/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -341,6 +363,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9DB48C1D2D3C7A29008764D3 /* XCRemoteSwiftPackageReference "IQKeyboardToolbarManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardToolbarManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.2;
+			};
+		};
+		9DB48C202D3C7A3D008764D3 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		9DB48C232D3C7A8C008764D3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		9DB48C282D3C7AA8008764D3 /* XCRemoteSwiftPackageReference "combine-schedulers" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/combine-schedulers";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9DB48C1E2D3C7A29008764D3 /* IQKeyboardToolbarManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DB48C1D2D3C7A29008764D3 /* XCRemoteSwiftPackageReference "IQKeyboardToolbarManager" */;
+			productName = IQKeyboardToolbarManager;
+		};
+		9DB48C212D3C7A3D008764D3 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DB48C202D3C7A3D008764D3 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		9DB48C242D3C7A8C008764D3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DB48C232D3C7A8C008764D3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		9DB48C292D3C7AA8008764D3 /* CombineSchedulers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DB48C282D3C7AA8008764D3 /* XCRemoteSwiftPackageReference "combine-schedulers" */;
+			productName = CombineSchedulers;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9DB48BFD2D3C78E7008764D3 /* Project object */;
 }

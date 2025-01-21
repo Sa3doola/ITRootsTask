@@ -1,0 +1,51 @@
+/* 
+  Localizable.strings
+  App
+
+ //  Created by Saad Sherif on 19/01/2025.
+  
+*/
+
+"Add_New_Button_Title" = "Add";
+"Confirm_Button_Title" = "Confirm";
+"Back_Button_Title" = "Back";
+
+
+// MARK: - LoginVC.swift -
+
+"login_title" = "Login";
+"please_enter_the_following_data_to_login_title" = "Please enter the following data to login";
+"phone_number_placholder" = "phone number";
+"login_button_title" = "Login";
+"don't_have_account_title" = "don't have account?";
+"new_account_title" = "new account";
+"login_visitor_button_title" = "login as visitor";
+
+// MARK: - RegisterVC.swift -
+
+"new_account_title" = "New Account";
+"please_enter_the_following_data_to_register_title" = "Please enter the following data to register";
+"full_name_placeholder" = "name";
+"user_name_placeholder" = "user name";
+"city_placeholder" = "city";
+"location_placeholder" = "your location (optional)";
+"animal_placeholder" = "the animal you are raising";
+"bio_placeholder" = "your description (About)";
+"halal_guide_question" = "Do you want to appear in the Halal Owners Directory?";
+"show_halal_location_question" = "Do you want your location to appear in the Halal Owners Directory?";
+"yes_title" = "Yes";
+"no_title" = "No";
+"already_have_account_title" = "You already have an account";
+"register_button_title" = "Register";
+
+// MARK: - AppTabBarController.swift -
+
+"Home_tabBar_title" = "Home";
+"Map_tabBar_title" = "Map";
+"Users_tabBar_title" = "Users";
+
+// MARK: - HomeVC.swift -
+
+"Home_Navigation_title" = "Home";
+"Users_Navigation_Title" = "Users";
+

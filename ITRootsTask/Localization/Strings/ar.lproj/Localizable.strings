@@ -1,0 +1,51 @@
+/* 
+  Localizable.strings
+  App
+
+ //  Created by Saad Sherif on 19/01/2025.
+  
+*/
+
+// MARK: - General.swift -
+
+"Done" = "تم";
+
+// MARK: - LoginVC.swift -
+
+"login_title" = "تسجيل دخول";
+"please_enter_the_following_data_to_login_title" = "الرجاء إدخال البيانات التالية لتسجيل الدخول";
+"phone_number_placholder" = "رقم الجوال";
+"login_button_title" = "دخول";
+"don't_have_account_title" = "لا أملك حساب ؟";
+"new_account_title" = "حساب جديد";
+"login_visitor_button_title" = "دخول كزائر";
+"select country" = "اختيار الدولة";
+
+// MARK: - RegisterVC.swift -
+
+"new_account_title" = "حساب جديد";
+"please_enter_the_following_data_to_register_title" = "الرجاء إدخال البيانات التالية لتسجيل الدخول";
+"full_name_placeholder" = "الاسم";
+"user_name_placeholder" = "الاسم المستعار";
+"city_placeholder" = "المدينة";
+"location_placeholder" = "الموقع الخاص بك (إختياري)";
+"animal_placeholder" = "الحيوان الذي تقوم بتربيته";
+"bio_placeholder" = "الوصف الخاص بك (نبذه)";
+"halal_guide_question" = "هل تريد الظهور في دليل أصحاب الحلال ؟";
+"show_halal_location_question" = "هل تريد ظهور موقعك في دليل اصحاب الحلال ؟";
+"yes_title" = "نعم";
+"no_title" = "لا";
+"already_have_account_title" = "لديك حساب بالفعل؟";
+"register_button_title" = "تسجيل";
+
+
+// MARK: - UserTabBarController.swift -
+
+"Home_tabBar_title" = "الرئيسية";
+"Map_tabBar_title" = "الخريطة";
+"Users_tabBar_title" = "المستخدمين";
+
+// MARK: - HomeVC.swift -
+
+"Home_Navigation_title" = "الرئيسية";
+"Users_Navigation_Title" = "المستخدمين";
